@@ -31,6 +31,17 @@
 a{text-decoration: none;
 color:maroon;}
 
+.eye{ width:20px; height:20px; position:absolute; border:.5px solid; border-radius:25px; background-color: white; left:25.5%; top:49%}
+
+.pupil { width:8px; height:8px; border-radius:5px; background-color:black;position:inherit;
+left:2%; top:49%
+}
+
+.eye2{ width:20px; height:20px; position:absolute; border:.5px solid; border-radius:25px; background-color: white; left:28.5%; top:51%}
+
+.pupil2 { width:8px; height:8px; border-radius:5px; background-color:black;position:relative;
+left:2px; top:5px
+}
 
 
 @media screen and (max-width: 600px) {
