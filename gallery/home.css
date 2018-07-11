@@ -1,0 +1,87 @@
+.back{width:36%;position: absolute;
+bottom:0%;left:0%}
+
+.mee{height:40%;
+    position: absolute;
+    bottom:0;
+    left:20%;
+    top:30%}
+
+.name{font-family:Raleway;
+        font-weight: 800;
+        font-size:2em;
+        position: fixed;
+        right:1%;
+        top:-1%;
+        color:maroon;}
+
+.menu{font-family:Raleway;
+        font-weight: 300;
+        font-size:1.5em;
+        position: fixed;
+        right:1%;
+        top:4.5%;
+        text-align: right;
+        }
+
+a{text-decoration: none;
+color:maroon;}
+
+
+.aboutme{height:37%;
+    width: 22%;
+    position: absolute;
+    bottom:0;
+    left:56%;
+    top:28%;
+    font-family:Raleway;
+        font-weight: 400;
+        font-size:1em;
+letter-spacing:1px;
+color:maroon;
+padding-top:1%;
+border-bottom-style:solid;
+border-bottom-width:thick;
+border-bottom-color:maroon;
+border-top-style:solid;
+border-top-width:thick;
+border-top-color:maroon;}
+
+
+@media screen and (max-width: 600px) {
+    .name{right:10%}
+    .menu{right:10%}
+    .mee{left:10%;
+        height:30%;}
+    .aboutme{top:60%;
+    width:80%;
+    height:15%;
+    left:10%;}
+    
+}
+
+.card {
+  display: flex;
+  overflow-x: auto;
+  top:200px;
+  position: absolute;
+  height:500px;
+  width:;
+ left:0px;
+ right:0px;
+margin: auto;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+.card--content {
+  margin:15px;
+  border-style: double;
+  border-width:10px;
+  border-color:darkgoldenrod;
+   }
+
+.card--content img {
+    height:100%;
+}

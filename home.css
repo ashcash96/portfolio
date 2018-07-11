@@ -1,0 +1,45 @@
+.maery{height:69%;
+    position: absolute;
+    bottom:0;
+    right:60%;}
+
+.name{font-family:Raleway;
+        font-weight: 800;
+        font-size:3em;
+        position: absolute;
+        right:35%;
+        top:25%;
+        color:maroon;}
+.job{font-family:Raleway;
+        font-weight: 800;
+        font-size:2em;
+        position: absolute;
+        right:35%;
+        top:33%;
+        color:maroon;
+        letter-spacing:2px}
+
+.menu{font-family:Raleway;
+        font-weight: 300;
+        font-size:2em;
+        position: absolute;
+        right:28.6%;
+        top:42%;
+        text-align:left;
+        }
+
+a{text-decoration: none;
+color:maroon;}
+
+
+
+@media screen and (max-width: 600px) {
+    .name {font-size:2em;right:10%;top:20%}
+    .job{font-size: 1em;
+    right:10%;
+    top:28%}
+    .menu{font-size:1em;
+    right:10%;top:35%;
+    text-align:right}
+    .maery{right:40%}
+}
